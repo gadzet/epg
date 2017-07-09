@@ -1,0 +1,20 @@
+.channel{
+	&__container {
+		position: fixed;
+		li {
+		list-style-type: none;
+	}
+	}
+	&__item {
+		background: black;
+		width:150px;
+		height: 90px;
+		border-bottom: 1px solid white;
+		img{
+			width:50%;
+			margin: auto;
+			display:block;
+		}
+	}
+
+}
