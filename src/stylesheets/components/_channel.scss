@@ -1,9 +1,14 @@
+
 .channel{
 	&__container {
-		position: fixed;
+		position: absolute;
 		li {
 		list-style-type: none;
+
 	}
+-webkit-box-shadow:33px 2px 40px -15px rgba(73, 73, 73, 0.5);
+-moz-box-shadow: 33px 2px 40px -15px rgba(73, 73, 73, 0.5);
+box-shadow: 33px 2px 40px -15px rgba(73, 73, 73, 0.5);
 	}
 	&__item {
 		background: black;
@@ -11,10 +16,16 @@
 		height: 90px;
 		border-bottom: 1px solid white;
 		img{
+			padding:25px 0;
 			width:50%;
 			margin: auto;
 			display:block;
 		}
+  @media screen and (max-width: 767px) {
+    width: 100px;
+  }
+
+
 	}
 
 }

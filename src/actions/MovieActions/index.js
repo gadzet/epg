@@ -1,1 +1,0 @@
-import { fetchChannels } from '../ChannelActions/index'
